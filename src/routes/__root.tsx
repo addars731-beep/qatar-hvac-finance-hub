@@ -84,9 +84,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Complete HVAC project accounting, expense tracking, invoicing and profitability management for Qatar operations." },
       { name: "author", content: "HVAC ERP" },
       { property: "og:title", content: "HVAC ERP — Project Accounting & Management" },
-      { property: "og:description", content: "Complete HVAC project accounting, expense tracking, invoicing and profitability management." },
+      { property: "og:description", content: "Complete HVAC project accounting, expense tracking, invoicing and profitability management for Qatar operations." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "HVAC ERP — Project Accounting & Management" },
+      { name: "twitter:description", content: "Complete HVAC project accounting, expense tracking, invoicing and profitability management for Qatar operations." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/76c53bb1-6ebe-428e-8b66-94ff7f47435b/id-preview-2334b98e--a634e51e-16b1-4b73-8f3e-081d3e44851e.lovable.app-1782103095040.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/76c53bb1-6ebe-428e-8b66-94ff7f47435b/id-preview-2334b98e--a634e51e-16b1-4b73-8f3e-081d3e44851e.lovable.app-1782103095040.png" },
     ],
     links: [
       {
